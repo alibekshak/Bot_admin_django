@@ -75,16 +75,6 @@ WSGI_APPLICATION = "Bot_admin.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-# DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#        'DATABASE': getenv('PGDATABASE'),
-#        'USER': getenv('PGUSER'),
-#        'PASSWORD': getenv('PGPASSWORD'),
-#        'HOST': getenv('PGHOST'),
-#        'PORT': getenv('PGPORT')
-#    }
-# }
 
 DATABASES = {
     'default': {
